@@ -1,3 +1,4 @@
-# mongoDBPagination
+mongoDBPagination
+=================
 
-Doc, are you telling me that you built a time machine out of a delorean.
+A simple Expressjs/Mongojs app that shows how to implement Pagination using MongoDB Skip and Limit
