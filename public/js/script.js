@@ -1,6 +1,6 @@
 // init bootpag
 $('#pager').bootpag({
-    total: $("#totalRecords").val()/$("#size").val(),
+    total: Math.ceil($("#totalRecords").val()/$("#size").val()),
     page : 1,
     maxVisible : 10,
     href: "#page-{{number}}",
@@ -27,4 +27,4 @@ var populateTable = function (page) {
 };
 
 // load first page data
-populateTable(0);
+populateTable(1);
