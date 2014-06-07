@@ -1,0 +1,17 @@
+{
+  "name": "mongodbpagination",
+  "version": "0.0.1",
+  "description": "mongoDBPagination Sample Description",
+  "private": true,
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "~3.1.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
